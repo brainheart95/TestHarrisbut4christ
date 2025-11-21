@@ -72,6 +72,18 @@ body {
     color: var(--text-main);
 }
 
+.home-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit; /* keeps same color */
+}
+
+.home-link:hover {
+    opacity: 0.85; /* subtle feedback */
+}
+
+
 /* HERO */
 
 .hero {

@@ -3,38 +3,36 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Church</title>
+    <title>My Church – Home</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <!-- SIMPLE TOP BAR WITH LOGO + NAV -->
+    <!-- TOP BAR -->
     <header class="topbar">
         <div class="topbar-left">
             <img src="assets/logo.png" alt="Church Logo" class="logo" />
             <span class="site-title">My Church</span>
         </div>
         <nav class="topbar-nav">
-            <a href="#live">Live</a>
-            <a href="#events">Events</a>
-            <a href="#sermons">Sermons</a>
-            <a href="#team">Our Team</a>
-            <a href="#give">Give</a>
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="archive.html" class="nav-link">Previous Services</a>
+            <a href="about.html" class="nav-link">About / Contact</a>
         </nav>
     </header>
 
-<section class="hero" id="top">
-    <img src="assets/logo.png" alt="Church Cover" class="hero-cover" />
+    <!-- HERO with cover image -->
+    <section class="hero" id="top">
+        <img src="assets/logo.png" alt="Church Cover" class="hero-cover" />
 
-    <div class="hero-overlay"></div>
+        <div class="hero-overlay"></div>
 
-    <div class="hero-content">
-        <h1>Welcome to Our Church</h1>
-        <p>Faith • Community • Worship</p>
-        <a href="#live" class="btn-primary">Watch Live</a>
-    </div>
-</section>
-
+        <div class="hero-content">
+            <h1>Welcome to Our Church</h1>
+            <p>Faith • Community • Worship</p>
+            <a href="#live" class="btn-primary">Watch Live</a>
+        </div>
+    </section>
 
     <!-- LIVE STREAM + COUNTDOWN -->
     <section id="live" class="section">
@@ -55,102 +53,12 @@
         </div>
     </section>
 
-    <!-- EVENTS CALENDAR (SIMPLE LIST FOR NOW) -->
-    <section id="events" class="section light">
-        <h2>Upcoming Events</h2>
-        <div class="card-grid">
-            <article class="card">
-                <h3>Sunday Worship</h3>
-                <p class="card-date">Every Sunday — 10:30 AM</p>
-                <p>Our main weekly service with worship, teaching, and prayer.</p>
-            </article>
-            <article class="card">
-                <h3>Midweek Bible Study</h3>
-                <p class="card-date">Wednesdays — 7:00 PM</p>
-                <p>A smaller, interactive time in Scripture and discussion.</p>
-            </article>
-            <article class="card">
-                <h3>Youth Night</h3>
-                <p class="card-date">Fridays — 6:00 PM</p>
-                <p>Games, teaching, and community for teens.</p>
-            </article>
-        </div>
-    </section>
-
-    <!-- SERMON ARCHIVE -->
-    <section id="sermons" class="section">
-        <h2>Sermon Archive</h2>
+    <!-- SHORT INTRO -->
+    <section class="section light">
+        <h2>Who We Are</h2>
         <p class="section-intro">
-            Catch up on recent messages or rewatch your favorites.
+            We are a community centered on Jesus, gathering weekly to worship, learn, and serve.
         </p>
-        <div class="card-list">
-            <article class="card sermon-card">
-                <h3>Living by Faith</h3>
-                <p class="card-date">January 12, 2025</p>
-                <p>Exploring what it means to trust God in uncertain times.</p>
-                <a href="#" class="btn-outline">Watch on YouTube</a>
-            </article>
-            <article class="card sermon-card">
-                <h3>Hope in the Storm</h3>
-                <p class="card-date">January 5, 2025</p>
-                <p>Finding peace in Christ when life feels overwhelming.</p>
-                <a href="#" class="btn-outline">Watch on YouTube</a>
-            </article>
-            <article class="card sermon-card">
-                <h3>The Gift of Grace</h3>
-                <p class="card-date">December 29, 2024</p>
-                <p>A reminder that we are saved by grace, not by our performance.</p>
-                <a href="#" class="btn-outline">Watch on YouTube</a>
-            </article>
-        </div>
-    </section>
-
-    <!-- TEAM / ABOUT US -->
-    <section id="team" class="section light">
-        <h2>Our Team</h2>
-        <p class="section-intro">
-            Meet some of the people who serve and care for our church family.
-        </p>
-        <div class="card-grid team-grid">
-            <article class="card team-card">
-                <div class="avatar-placeholder">P</div>
-                <h3>Pastor Name</h3>
-                <p class="role">Lead Pastor</p>
-                <p>Teaching, pastoral care, and overall vision of the church.</p>
-            </article>
-            <article class="card team-card">
-                <div class="avatar-placeholder">A</div>
-                <h3>Assistant Name</h3>
-                <p class="role">Associate Pastor</p>
-                <p>Helps with preaching, discipleship, and small groups.</p>
-            </article>
-            <article class="card team-card">
-                <div class="avatar-placeholder">Y</div>
-                <h3>Youth Leader Name</h3>
-                <p class="role">Youth & Students</p>
-                <p>Leads youth gatherings and mentors teens.</p>
-            </article>
-        </div>
-    </section>
-
-    <!-- DONATION SECTION (PLACEHOLDER BUTTONS) -->
-    <section id="give" class="section">
-        <h2>Give / Support</h2>
-        <p class="section-intro">
-            Your generosity helps support the ministry of our church.
-            Online giving options are coming soon.
-        </p>
-        <div class="donate-buttons">
-            <a href="#" class="btn-primary">Give via Stripe (coming soon)</a>
-            <a href="#" class="btn-secondary">Give via PayPal (coming soon)</a>
-        </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section light">
-        <h2>Contact Us</h2>
-        <p>Email: mychurch@example.com</p>
-        <p>Address: 123 Church Street, Holy City</p>
     </section>
 
     <footer>

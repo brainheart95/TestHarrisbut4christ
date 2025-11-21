@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Pastor Name",
+    "role": "Lead Pastor",
+    "description": "Provides teaching, vision, and pastoral care.",
+    "photo": "assets/pastor.jpg",
+    "initials": "P"
+  },
+  {
+    "name": "Assistant Name",
+    "role": "Associate Pastor",
+    "description": "Helps with preaching, discipleship, and small groups.",
+    "photo": "assets/assistant.jpg",
+    "initials": "A"
+  },
+  {
+    "name": "Youth Leader Name",
+    "role": "Youth Ministry",
+    "description": "Leads youth gatherings and mentors students.",
+    "photo": "",
+    "initials": "Y"
+  }
+]

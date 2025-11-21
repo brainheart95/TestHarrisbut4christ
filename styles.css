@@ -322,3 +322,10 @@ footer {
         height: 55vh;
     }
 }
+
+
+/* mark active nav item slightly different */
+.nav-link.active {
+    background: rgba(255, 255, 255, 0.12);
+    color: var(--text-main);
+}

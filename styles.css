@@ -329,3 +329,8 @@ footer {
     background: rgba(255, 255, 255, 0.12);
     color: var(--text-main);
 }
+
+.hero-small {
+    height: 30vh;
+    min-height: 200px;
+}

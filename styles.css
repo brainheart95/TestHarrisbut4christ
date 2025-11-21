@@ -75,8 +75,12 @@ body {
 .home-link {
     display: flex;
     align-items: center;
-    text-decoration: none;
-    color: inherit; /* keeps same color */
+    text-decoration: none !important;  /* removes underline */
+    color: inherit;  /* keeps original text color */
+}
+
+.home-link span.site-title {
+    text-decoration: none !important; /* double insurance */
 }
 
 .home-link:hover {

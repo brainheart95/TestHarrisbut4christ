@@ -42,31 +42,43 @@
 
     <!-- TEAM / LEADERSHIP -->
     <section id="team" class="section">
-        <h2>Our Team</h2>
-        <p class="section-intro">
-            Meet some of the people who serve and care for our church family.
-        </p>
-        <div class="card-grid team-grid">
-            <article class="card team-card">
-                <div class="avatar-placeholder">P</div>
+    <h2>Our Team</h2>
+    <p class="section-intro">
+        Meet some of the people who serve and care for our church family.
+    </p>
+    <div class="card-grid team-grid">
+
+        <!-- CARD WITH PHOTO -->
+        <article class="card team-card has-photo">
+            <img src="assets/pastor.jpg" alt="Pastor Name" class="team-photo" />
+            <div class="team-overlay">
                 <h3>Pastor Name</h3>
                 <p class="role">Lead Pastor</p>
                 <p>Provides teaching, vision, and pastoral care.</p>
-            </article>
-            <article class="card team-card">
-                <div class="avatar-placeholder">A</div>
+            </div>
+        </article>
+
+        <!-- CARD WITH PHOTO -->
+        <article class="card team-card has-photo">
+            <img src="assets/assistant.jpg" alt="Assistant Name" class="team-photo" />
+            <div class="team-overlay">
                 <h3>Assistant Name</h3>
                 <p class="role">Associate Pastor</p>
                 <p>Helps with preaching, discipleship, and small groups.</p>
-            </article>
-            <article class="card team-card">
-                <div class="avatar-placeholder">Y</div>
-                <h3>Youth Leader Name</h3>
-                <p class="role">Youth Ministry</p>
-                <p>Leads youth gatherings and mentors students.</p>
-            </article>
-        </div>
-    </section>
+            </div>
+        </article>
+
+        <!-- CARD WITHOUT PHOTO (FALLBACK STYLE STILL WORKS) -->
+        <article class="card team-card">
+            <div class="avatar-placeholder">Y</div>
+            <h3>Youth Leader Name</h3>
+            <p class="role">Youth Ministry</p>
+            <p>Leads youth gatherings and mentors students.</p>
+        </article>
+
+    </div>
+</section>
+
 
     <!-- CONTACT SECTION -->
     <section id="contact" class="section light">

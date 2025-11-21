@@ -317,8 +317,8 @@ body {
 .team-photo {
     position: absolute;
     inset: 0;
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
     object-fit: cover;              /* fills card area like a cover */
     transform: scale(1.05);         /* tiny zoom for nicer edges */
     filter: brightness(0.85);       /* darken for text readability */
